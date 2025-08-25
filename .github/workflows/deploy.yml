@@ -22,7 +22,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        file: .docker/Dockerfile
+        file: .docker/Dockerfile.user
         push: true
         tags: jayrajsinh2301/cicd-test  # Replace with your Docker Hub username and repository
 
